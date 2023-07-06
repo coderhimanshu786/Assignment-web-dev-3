@@ -1,0 +1,29 @@
+/*
+Ans-4
+        display:inline
+                    When an element is styled with display:inline, it will not start on a new line, will only take up as much width as the content it contains, and will not cause a line break after it. 
+
+                        <span class="highlight">inline-level element</span>
+
+        display:inline-block
+                   The inline-block element does not start on a new line, but it takes up the specified width and height.   
+                                          li {
+                                            display: inline-block;
+                                            font-size: 20px;
+                                            padding: 20px;
+                                            }
+
+        display:block
+                    Any element styled with display: block is the polar opposite of display:inline. A block element starts on a new line and occupies the available width of its parent element or its specified width. 
+                    The HTML [p], [div], as well as other elements listed here are block elements by default.    
+
+                               <div>
+                                    <p>
+                                    This the first paragraph. The background color of these paragraphs have been
+                                     colored to distinguish them from their parent element.</p>
+
+                                    <p>This is the second paragraph.</p>
+
+                                </div> 
+
+                                */     

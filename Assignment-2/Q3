@@ -1,0 +1,8 @@
+/*
+Ans-3
+    VH stands for “viewport height”, which is the viewable screen's height. 
+    100VH would represent 100% of the viewport's height, or the full height of the screen.
+    And VW stands for “viewport width”, which is the viewable screen's width. 
+    100VW would represent 100% of the viewport's width, or the full width of the screen.
+
+    */

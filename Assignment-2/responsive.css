@@ -1,0 +1,13 @@
+/* Desktop styles */
+header, main, footer {
+    width: 960px;
+    margin: 0 auto;
+  }
+  
+  /* Mobile and Tablet styles */
+  @media (max-width: 768px) {
+    header, main, footer {
+      width: 100%;
+      padding: 20px;
+    }
+  }

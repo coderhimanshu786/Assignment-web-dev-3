@@ -1,0 +1,28 @@
+/*
+Ans-8
+        Relative Position: Setting the top, right, bottom, and left properties of an element with position: relative; property will cause it to adjust from its normal position. The other objects or elements will not fill the gap.
+
+        Syntax:
+        position: relative;
+
+        Absolute Position: An element with position: absolute; will cause it to adjust its position with respect to its parent. If no parent is present, then it uses the document body as parent.
+        
+        Syntax-
+        position: absolute;
+
+        Fixed Position: Position: fixed; property applied to an element will cause it to always stay in the same place even if the page is scrolled. To position the element we use top, right, bottom, left properties.
+
+        Syntax:
+        position: fixed;
+
+        Sticky: The element is positioned based on the user's scroll position.
+
+        Syntax:
+        position: sticky;
+
+        Static Position: The default position style for elements. With this style, elements are non-positioned--they appear as they are in the markup document. This style is also the only non-positioned style.
+
+        Syntax:
+        position: static;
+
+        */

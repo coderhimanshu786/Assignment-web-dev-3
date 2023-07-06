@@ -1,0 +1,15 @@
+/*
+Ans-1   
+    Content-box: This is the default value of box-sizing.
+     The dimension of element only includes ‘height’ and ‘width’ and does not include ‘border’ and ‘padding’ given to element. 
+     Padding and Border take space outside the element.
+
+     Syntax: 
+            box-sizing: content-box;
+
+    border-box: In this value, not only width and height properties are included but you will find padding and border inside of the box.
+
+    Syntax:
+        box-sizing: border-box;
+
+        */

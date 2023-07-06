@@ -1,0 +1,25 @@
+/*
+Ans-6
+    Z Index ( z-index ) is a CSS property that defines the order of overlapping HTML elements. Elements with a higher index will be placed on top of elements with a lower index. 
+    If you want to create a custom stacking order, you can use the z-index property on a positioned element. Note: When no z-index property is specified, elements are rendered on the default rendering layer (Layer 0).
+    
+    Note: 
+    Z index only works on positioned elements ( position:absolute , position:relative , or position:fixed )
+
+
+                             z-index: auto;
+
+                            /* <integer> values */
+                            z-index: 0;
+                            z-index: 3;
+                            z-index: 289;
+                            z-index: -1; /* Negative values to lower the priority */
+
+                            /* Global values */
+                            z-index: inherit;
+                            z-index: initial;
+                            z-index: revert;
+                            z-index: revert-layer;
+                            z-index: unset;
+
+                            */

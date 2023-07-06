@@ -1,0 +1,69 @@
+\*
+Ans-2
+CSS selectors are used to "find" (or select) the HTML elements you want to style.
+
+Categories into :
+
+1- Simple selectors (select elements based on name, id, class)
+syntax
+                                p {
+                                text-align: center;
+                                color: red;
+                                }
+
+2- Combinator selectors (select elements based on a specific relationship between them)
+    syntax-
+                                            h1 {
+                                            text-align: center;
+                                            color: red;
+                                            }
+
+                                            h2 {
+                                            text-align: center;
+                                            color: red;
+                                            }
+
+                                            p {
+                                            text-align: center;
+                                            color: red;
+                                            }
+
+3- Pseudo-class selectors (select elements based on a certain state)
+    syntax
+                                    Selector:Pseudo-Class {
+                                    Property: Value;
+                                }
+                               
+                                h1:hover{
+                                       background-color: aqua;
+                                        }
+
+4- Pseudo-elements selectors (select and style a part of an element)
+    syntax                 
+                Selector:Pseudo-Element{
+                                        Property:Value;
+                                    }
+                                    
+                                    p::first-line{
+                                        background-color: goldenrod;
+                                    }
+
+5- Attribute selectors (select elements based on an attribute or attribute value)
+    syntax 
+                        [href] {
+                                background-color: lightgreen;
+                                color: black;
+                                font-family: monospace;
+                                font-size: 1rem;
+                            }
+
+Advantages of css selector-
+
+1- Simple syntax since they include a single element in their structure.
+
+2- Performance is the same or faster compared to XPath.
+
+3- Easier to learn than XPath, easier to use.
+
+
+*/
